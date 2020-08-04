@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
+html, body {
+    background: url(/CineJANA16/img/background/sfondo11.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    color: #252c37;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container-fluid {
+    text-align: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+.mexErr{
+    color: #ff4848;
+}
+
+.mexOk{
+    color: #80ff80;
+}
+
+.navbar {
+    margin-top: 40px;
+    border: 0;
+    border-bottom: 1px solid #ffd5009c;
+    border-radius: 0;
+    box-shadow: none;
+    background: #252c37b6;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.navbar.comeup {
+    margin-top: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 25px 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #eeeeee;
+}
+
+.navbar-default .navbar-toggle {
+    border-radius: 0;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background: transparent;
+}
+
+.navbar-brand>img {
+    width: 100%;
+    max-width: 130px;
+}
+
+.dropdown-item {
+    display: inline-block;
+}
+
+
+.dropdown-menu{
+    padding: 10px;
+    text-align: right !important;
+    
+}
+
+.dropdown-item a, .dropdown-item a:hover{
+    text-decoration: underline  none !important;
+}
+
+#iconManutenzione {
+    margin-top: 10%;
+    color: white;
+}
+
+#accediCont {
+    margin-top: 10%;
+}
+
+.d-none{
+    display: none !important;
+}
+
+#accediRow {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#SpettRow{
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 15%
+}
+
+table tr th {
+    text-align: center;
+}
+
+#tabSala{
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFFFFF; 
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+#titTab{
+    font-size: 22px;
+    color: #ffd500;
+}
+
+#tab{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFFFFF; 
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+.iconeListaU{
+    font-size: 20px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+h1{
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    color: #ffd500;
+    text-align: center;
+}
+
+h2{
+    color: #ffd500;
+	
+}
+
+#aFilm{
+    font-size: 14px !important;
+    color: white;
+}
+
+small {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 12px;
+}
+
+.bott {
+    background-color: #ffd300;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+
+#bottPrenota{
+    background-color: #ffd300;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.inputForm {
+    border: none;
+}
+
+select{
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+}
+
+input {
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+}
+
+input:focus, select:focus, textarea:focus, .btn:focus{
+    outline: 0;
+}
+
+input::-webkit-input-placeholder {
+    padding-left: 10px;
+    color: rgb(129, 129, 129);
+}
+
+input:-moz-placeholder {
+    padding-left: 10px;
+    color: rgb(129, 129, 129);
+}
+
+textarea {
+    padding-left: 10px;
+    color: rgb(129, 129, 129);
+}
+
+input[type="date"] {
+    padding-left: 20px;
+    color: rgb(129, 129, 129);
+}
+
+input[type="datetime-local"] {
+    padding-left: 20px;
+    color: rgb(129, 129, 129);
+}
+
+input[type="time"] {
+    padding-left: 20px;
+    color: rgb(129, 129, 129);
+}
+
+.events-item {
+	margin-top: 25%;
+	background: #818182b6;
+	padding: 25px;
+    border: 2px solid #ffd5009c;
+}
+
+.event-info p, .event-info h3{
+    color: black;
+}
+
+.event-info h5{
+    color: rgba(255, 255, 255, 0.534);
+}
+
+.events .events-item .event-info p {
+    text-align: left;
+}
+
+/* footer */
+
+footer {
+    padding-top: 50px;
+    background: #252c37b6;
+}
+
+#footerElencoFilm{
+    margin-top: 10%;
+}
+
+#testoFooter {
+    text-align: left !important;
+}
+
+#centroFooter {
+    text-align: center;
+}
+
+footer p {
+    text-align: justify;
+}
+
+footer .social a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 7px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 32px;
+    border: 1px solid transparent;
+    border-radius: 80px;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+    text-align: center;
+}
+
+iframe {
+    height: 25vh;
+}
+
+footer .copy-right {
+    color: #fff;
+    font-size: 12px;
+}
+
+#mappaFooter {
+    text-align: right !important;
+    border: 0px;
+}
+
+#crFooter {
+    text-align: center !important;
+}
+
+/* Back to top */
+
+.totop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 104400;
+}
+
+.totop a, .totop a:visited {
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #fff !important;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 2px;
+}
+
+/*
+}
+
+.footer{
+    background-color:rgb(25, 52, 139);
+    color: rgb(255, 255, 255);
+    border-top: 2px solid rgba(71, 142, 248, 0.938);
+}
+
+
+
+
+
+
+a{
+    color: rgb(255, 255, 255);
+    font-size: 16px; 
+    text-align: center;
+}
+
+a:hover{
+    color: #ffd300;
+}
+
+li:hover a{
+    color: rgb(0, 0, 0);
+}
+
+li:hover{
+    background-color: #ffd300;
+}
+
+
+
+
+i{
+  font-size: 22px;
+}
+
+ul li {
+    list-style: none;
+}
+
+#container{
+    min-height: 95vh;
+}
+
+.iconaFooter{
+    font-size: 18px !important;
+}
+
+h6{
+    font-size: 12px !important;
+}
+
+p{
+    font-size: 10px !important;
+}
+
+.iconaFoot{
+    margin-top: 8%;
+}
+
+
+
+
+
+
+
+.fa-tools{
+    font-size: 100px;
+}
+
+
+.btn{
+    background-color: #ffd300;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+#tablU{
+    width: 90%;
+    color: #FFFFFF; 
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+#aFilm{
+    font-size: 16px !important;
+}
+
+
+
+#cercaSpett{
+    margin-top: 10%;
+}
+
+.navigation-menu{
+    height: 12vh;
+}
+
+/*
+ * Responsive CSS 
+ */
+
+/*
+ * Mobile phones 
+ */
+
+@media (max-width: 575px) {
+    .banner .slideFoto h3, .banner .slideFoto .btn {
+        display: none !important;
+    }
+    .banner-video .slider .video-header {
+        bottom: 70px;
+    }
+    .meet .meet-map .map-marker img {
+        max-width: 15px !important;
+    }
+}
+
+/* Banner */
+
+.banner .carousel .item {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 0.5s;
+    -ms-animation-duration: 3s;
+    -ms-animation-delay: 0.5s;
+    -o-animation-duration: 3s;
+    -o-animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}
+
+.banner .carousel .carousel-caption h2, .banner .carousel .carousel-caption h3 {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 1s;
+    -ms-animation-duration: 2s;
+    -ms-animation-delay: 1s;
+    -o-animation-duration: 2s;
+    -o-animation-delay: 1s;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.banner .carousel .carousel-caption h2 i {
+    font-size: 64px;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.banner .carousel .carousel-caption p {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 1s;
+    -ms-animation-duration: 2s;
+    -ms-animation-delay: 1s;
+    -o-animation-duration: 2s;
+    -o-animation-delay: 1s;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.banner .carousel .carousel-caption .btn {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 2.5s;
+    -ms-animation-duration: 2s;
+    -ms-animation-delay: 2.5s;
+    -o-animation-duration: 2s;
+    -o-animation-delay: 2.5s;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+}
+
+.banner .carousel .carousel-control {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    background: none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+    border: 0;
+    opacity: 1;
+    text-shadow: none;
+}
+
+.banner .carousel .carousel-control span {
+    width: 50px;
+    height: 50px;
+    line-height: 52px;
+    font-size: 22px;
+}
+
+.banner .slideFoto {
+    bottom: inherit;
+    top: 250px;
+    text-align: left;
+}
+
+.banner .slideFoto h2 {
+    margin-bottom: 15px;
+    font-size: 52px;
+    line-height: 42px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.banner .slideFoto h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.banner .slideFoto .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 32px;
+    font-size: 16px;
+}
+
+/*
+ * Tablets 
+ */
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse {
+        border-color: rgba(0, 0, 0, 0.15);
+        box-shadow: none;
+    }
+    .navbar-default .navbar-brand {
+        padding-top: 5px;
+    }
+    .navbar-default .navbar-brand>img {
+        max-width: 140px;
+    }
+    .navbar, .navbar.comeup {
+        margin-top: 0;
+        padding: 10px 0;
+        background: rgba(0, 0, 0, 0.9);
+    }
+    header .navbar-default .navbar-nav>li>a, header .navbar-default .navbar-nav>li.active>a, header .navbar-default .navbar-nav>li.active>a:hover, header .navbar-default .navbar-nav>li>a:hover {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background: none;
+    }
+    .navbar .navbar-nav {
+        margin-top: 0;
+    }
+    .banner .slideFoto {
+        top: 80px !important;
+    }
+    .banner .carousel .carousel-control {
+        display: none;
+    }
+    .banner .slideFoto h2 {
+        font-size: 32px !important;
+    }
+    .banner .slideFoto h2 i {
+        font-size: 40px !important;
+    }
+    .banner .slideFoto h3 {
+        font-size: 20px !important;
+    }
+    .banner .slideFoto .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    .banner-video .slider .video-header {
+        bottom: 25%;
+    }
+    .banner-video .slider .video-header p {
+        display: none;
+    }
+    .banner-video .slider .video-header h3 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+}
+
+/*
+ * Desktop 
+ */
+
+@media (max-width: 991px) {
+    .banner .slideFoto {
+        top: 130px;
+    }
+}
+
+@media (max-width: 1100px) {}
+
+@-webkit-keyframes rotating
+/* Safari and Chrome */
+
+    {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 8s linear infinite;
+    -moz-animation: rotating 8s linear infinite;
+    -ms-animation: rotating 8s linear infinite;
+    -o-animation: rotating 8s linear infinite;
+    animation: rotating 8s linear infinite;
+}

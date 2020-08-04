@@ -1,0 +1,24 @@
+.h-twitter:hover{background:#2aa4e3!important}
+.h-facebook:hover{background:#375b97!important}
+.h-instagram:hover {background:linear-gradient(111deg, rgb(106, 108, 246) 0%, rgb(255, 94, 0) 35%, rgb(255, 202, 27) 65%, rgb(246, 100, 251) 100%) !important}
+.btn-theme{background:#ffd500;color:rgb(0, 0, 0);box-shadow:none}
+.btn-theme:hover#botMod{color:#fff;background:#14c903;box-shadow:1px 1px 3px rgba(0,0,0,.3)}
+.btn-theme:hover#botEl{color:#fff;background:#c90303;box-shadow:1px 1px 3px rgba(0,0,0,.3)}
+.btn-theme:active,.btn-theme:focus{color:#fff;box-shadow:none}a{color:#ffd500}
+a:focus,a:hover{color:#ffd500}
+.theme-color{color:#ffd500}
+.textColor{color:black !important}
+.navbar-default .navbar-nav li a{color:#fff}
+.navbar-default .navbar-nav li a:active,.navbar-default .navbar-nav li a:focus,.navbar-default .navbar-nav li a:hover{color:#ffd500}
+.navbar-default .navbar-nav li.active a,.navbar-default .navbar-nav li.active a:active,.navbar-default .navbar-nav li.active a:focus,.navbar-default .navbar-nav li.active a:hover{color:#ffd500;background:0 0}
+#navbarDropdownMenuLink:hover, .menu {background: #ffd500 !important}
+.dropdown-menu {background-color: #252c37b6;}
+.default-heading h2,.default-heading-shadow h2{border:2px solid #f23030}
+.default-heading h2:after,.default-heading-shadow h2:after{border-top-color:#f23030}
+.events .events-item .figure .img-hover{background:rgba(242,48,48,.6)}
+.events .events-item .figure .img-hover a{color:#f23030;background:#333}
+.events .events-item .figure .img-hover a:hover{color:#d12323}
+.events .events-item .event-info hr{border-color:#f23030}
+footer{border-top:2px solid #ffd500c2}
+footer .social a:hover{background:#fff;color:#fff;font-size:22px;margin-bottom:15px}
+.totop a{background:#ffd500c2}
